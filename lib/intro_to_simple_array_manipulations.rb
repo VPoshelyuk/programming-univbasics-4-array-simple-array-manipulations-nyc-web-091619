@@ -1,25 +1,25 @@
 def using_push(arr, str)
-  str.push(str)
+  arr.push(str)
 end
 
 def using_unshift(arr, str)
-  str.unshift(str)
+  arr.unshift(str)
 end
 
 def using_pop(arr)
-  str.pop
+  arr.pop
 end
 
 def pop_with_args(arr)
-  str.pop(2)
+  arr.pop(2)
 end
 
 def using_shift(arr)
-  str.shift
+  arr.shift
 end
 
 def shift_with_args(arr)
-  str.shift(2)
+  arr.shift(2)
 end
 
 def using_concat(arr1, arr2)
@@ -31,17 +31,17 @@ def using_insert(arr, element)
 end
 
 def using_unique(arr)
-  str.unique
+  arr.unique
 end
 
 def using_flatten(arr)
-  str.flatten
+  arr.flatten
 end
 
 def using_delete(arr, str)
-  str.delete(str)
+  arr.delete(str)
 end
 
 def using_delete_at(arr, int)
-  str.delete_at(int)
+  arr.delete_at(int)
 end
